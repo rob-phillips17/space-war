@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space War!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <h1 class="title">Space War!</h1>
+    <div class="alien-fleet">
+        <div data-mothership-div class="alien-fleet__mothership"></div>
+        <div data-defence-div class="alien-fleet__defence-ships"></div>
+        <div data-attack-div class="alien-fleet__attack-ships"></div>
+    </div>
+    <div class="control-panel">
+        <button data-fire-btn class="control-panel__fire-btn">Fire!</button>
+        <button data-reset-btn class="control-panel__reset-btn">Reset</button>
+    </div>
+    <div data-victory-msg class="victory-msg">
+        <h1 class="victory-msg__title">Victory!</h1>
+        <h4 class="victory-msg__subtitle">The mothership has been destroyed.</h4>
+        <button data-reset-btn class="victory-msg__reset-btn">Restart</button>
+    </div>
+</body>
+
+</html>
